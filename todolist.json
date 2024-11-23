@@ -67,6 +67,14 @@
       "post": {
         "summary": "Create new todolist",
         "description": "Create new todolist to database",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {}
+            }
+          }
+        },
         "responses": {}
       }
     },
@@ -87,6 +95,14 @@
             }
           }
         ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {}
+            }
+          }
+        },
         "responses": {}
       },
       "delete": {
