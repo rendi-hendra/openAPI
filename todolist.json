@@ -59,6 +59,16 @@
               "nullable": true,
               "minLength": 1,
               "maxLength": 100
+            },
+            "examples": {
+              "java": {
+                "description": "Example name java",
+                "value": "Java"
+              },
+              "php": {
+                "description": "Example name php",
+                "value": "PHP"
+              }
             }
           }
         ],
@@ -95,6 +105,24 @@
                     }
                   }
                 }
+              },
+              "examples": {
+                "java": {
+                  "description": "Example create todolist Java",
+                  "value": {
+                    "name": "Java",
+                    "priority": 3,
+                    "tags": ["java", "Programming"]
+                  }
+                },
+                "php": {
+                  "description": "Example create todolist PHP",
+                  "value": {
+                    "name": "PHP",
+                    "priority": 5,
+                    "tags": ["php", "Programming"]
+                  }
+                }
               }
             }
           }
@@ -116,6 +144,16 @@
               "type": "string",
               "minLength": 1,
               "maxLength": 100
+            },
+            "examples": {
+              "java": {
+                "description": "Sample todolist id for Java",
+                "value": "1"
+              },
+              "php": {
+                "description": "Sample todolist id for PHP",
+                "value": "2"
+              }
             }
           }
         ],
@@ -147,10 +185,29 @@
                     }
                   }
                 }
+              },
+              "examples": {
+                "java": {
+                  "description": "Example create todolist Java",
+                  "value": {
+                    "name": "Java",
+                    "priority": 3,
+                    "tags": ["java", "Programming"]
+                  }
+                },
+                "php": {
+                  "description": "Example create todolist PHP",
+                  "value": {
+                    "name": "PHP",
+                    "priority": 5,
+                    "tags": ["php", "Programming"]
+                  }
+                }
               }
             }
           }
         },
+
         "responses": {}
       },
       "delete": {
